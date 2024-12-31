@@ -1,4 +1,4 @@
-# macos-profiles
+# Security profile for MacOS
 Good security settings for MacOS implemented as a system profile. This will:
 - Enforce full-disk encryption
 - Enable DNS-over-HTTPS
