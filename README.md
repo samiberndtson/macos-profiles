@@ -8,5 +8,7 @@ Good security settings for MacOS implemented as a system profile. This will:
 - Enables the firewall and blocks all incoming connections
 
 ### Resources
+
 https://developer.apple.com/documentation/devicemanagement
+
 https://mozilla.github.io/policy-templates/
