@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutomaticallyInstallMacOSUpdates</key>
+			<true/>
+			<key>AutomaticCheckEnabled</key>
+			<true/>
+			<key>AutomaticDownload</key>
+			<true/>
+			<key>CriticalUpdateInstall</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+		</dict>
+		<dict>
+			<key>allowSimple</key>
+			<true/>
+			<key>maxInactivity</key>
+			<integer>10</integer>
+			<key>minLength</key>
+			<integer>12</integer>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+		</dict>
+		<dict>
+			<key>Defer</key>
+			<true/>
+			<key>Enable</key>
+			<string>On</string>
+			<key>DeferForceAtUserLoginMaxBypassAttempts</key>
+			<integer>3</integer>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+		</dict>
+		<dict>
+			<key>BlockAllIncoming</key>
+			<true/>
+			<key>EnableFirewall</key>
+			<true/>
+			<key>EnableStealthMode</key>
+			<true/>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://security.cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare DNS-over-HTTPS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+		</dict>
+		<dict>
+			<key>Defer</key>
+			<true/>
+			<key>Enable</key>
+			<string>On</string>
+			<key>UseRecoveryKey</key>
+			<true/>
+			<key>UserEntersMissingInfo</key>
+			<false/>
+			<key>DeferForceAtUserLoginMaxBypassAttempts</key>
+			<integer>0</integer>
+			<key>PayloadDisplayName</key>
+			<string>Full-disk encryption</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX.FileVault2</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Security Settings</string>
+	<key>PayloadDescription</key>
+	<string>Enforce good security defaults to MacOS</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E73F404F-0973-4605-8E98-480E7997A818</string>
+	<key>PayloadIdentifier</key>
+	<string>E73F404F-0973-4605-8E98-480E7997A818</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
